@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 """
-    Lastship Add-on (C) 2019
+    grumpybear Add-on (C) 2019
     Credits to Placenta and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
@@ -18,9 +18,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-# Addon Name: Lastship
-# Addon id: plugin.video.lastship
-# Addon Provider: LastShip
+# Addon Name: grumpybear
+# Addon id: plugin.video.grumpybear
+# Addon Provider: grumpybear
 
 import urlparse,sys,urllib
 from resources.lib.modules import control
@@ -507,7 +507,7 @@ elif action == 'service':
 
 elif action == 'devUpdateNavigator':
     from resources.lib.modules import updateManager
-    updateManager.updateLastShip()
+    updateManager.updategrumpybear()
 
 elif action == 'showFaultyProvider':
     from resources.lib.modules import source_faultlog as faultlog
