@@ -1,1 +1,6 @@
+1.0.1
 
+netflix.py für netflix addon 0.14.x angepasst
+
+ToDos
+Suche der Netflixserien verbessern
